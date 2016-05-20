@@ -2,5 +2,8 @@
 *.dat
 # compiled python executables
 *.pyc
+# images
+*.jpg
+*.png
 # Mac folder files
 *.DS_Store
