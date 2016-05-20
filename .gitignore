@@ -1,0 +1,6 @@
+# huge data files
+*.dat
+# compiled python executables
+*.pyc
+# Mac folder files
+*.DS_Store

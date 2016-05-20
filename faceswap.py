@@ -47,9 +47,7 @@ import cv2
 import dlib
 import numpy
 
-import sys
-
-PREDICTOR_PATH = "/home/matt/dlib-18.16/shape_predictor_68_face_landmarks.dat"
+PREDICTOR_PATH = "face_landmarks.dat"
 SCALE_FACTOR = 1 
 FEATHER_AMOUNT = 11
 
@@ -214,5 +212,4 @@ def create_face_swap(baseimage, faceimage):
 
    output_im = im1 * (1.0 - combined_mask) + warped_corrected_im2 * combined_mask
 
-   # cv2.imwrite('output.jpg', output_im)
    return output_im
